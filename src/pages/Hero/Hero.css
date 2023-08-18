@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Ysabeau+Infant:wght@700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .hero {
   display: flex;
   padding: 20px;
@@ -7,24 +13,31 @@
   align-items: center;
   height: 90vh;
 }
+
 .description {
   line-height: 2;
   max-width: 45em;
   margin-bottom: 0.8rem;
   font-size: 2vw;
+  font-family: 'Dancing Script', cursive;
 }
+
 .hero span {
-  color: #379683;
+  color: rgb(103, 181, 125);
 }
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .content h1 {
   margin-bottom: 1rem;
   font-size: 3.5vw;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
+
 .hero img {
   width: 50vw;
 }
@@ -32,27 +45,34 @@
 .btn-order {
   cursor: pointer;
   color: #fff;
-  background: #379683;
+  background: rgb(103, 181, 125);
   padding: 10px;
   border: none;
   outline: none;
   font-size: 15px;
 }
+
 .btn-order:hover {
-  filter: brightness(80%);
+  color: rgb(103, 181, 125);
+  background-color: transparent;
   outline: none;
+  background-color: #fff;
+  border: solid 0.5px;
 }
+
 .btn-order:focus {
   outline: none;
 }
-@media (max-width:767px)
-{
-  .hero{
-    flex-direction:column;
+
+@media (max-width:767px) {
+  .hero {
+    flex-direction: column;
   }
-  .content{
-    margin-top:2rem;
+
+  .content {
+    margin-top: 2rem;
   }
+
   .btn-order {
     cursor: pointer;
     color: #fff;
@@ -62,10 +82,12 @@
     outline: none;
     font-size: 15px;
   }
+
   .btn-order:hover {
     filter: brightness(80%);
     outline: none;
   }
+
   .btn-order:focus {
     outline: none;
   }

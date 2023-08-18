@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
 
 ul {
@@ -16,11 +13,12 @@ ul {
 a {
   text-decoration: none;
   color: #fff;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
 
 #nav {
   background-color: #333a25;
-  color: #796cd2;
+  color: rgb(103, 181, 125);
 }
 
 #nav ul {
@@ -47,13 +45,13 @@ a {
 }
 
 .links li:hover {
-  border-color: #161a19;
+  border-color: rgb(103, 181, 125);
 }
 
 .btn {
   cursor: pointer;
   color: #fff;
-  background: #379683;
+  background: rgb(103, 181, 125);
   padding: 8px;
   border: none;
   outline: none;
@@ -61,10 +59,11 @@ a {
 }
 
 .btn:hover {
-  border-color: #fff;
-  color: #fff;
+  color: rgb(103, 181, 125);
   background-color: transparent;
   outline: none;
+  background-color: #fff;
+  border: 0.5px;
 }
 
 .btn:focus {

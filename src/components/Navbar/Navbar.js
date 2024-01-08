@@ -68,3 +68,15 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+//The state is a built-in React object that is used to contain data or information about the component.
+// A component's state can change over time; whenever it changes, the component re-renders.
+//props are read only, cannot  be modified
+//states can be modified and also asynchoronous
+//The state object is where you store property values that belong to the component.
+
+
+
+//API
+//An application programming interface is a way for two or more computer programs to communicate with each other. 
+//It is a type of software interface, offering a service to other pieces of software.
+//A document or standard that describes how to build or use such a connection or interface is called an API specification.
